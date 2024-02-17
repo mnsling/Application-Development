@@ -464,7 +464,7 @@ td {
 }
 
 .bcover {
-    background-image: url('bts/cover.jpg');
+    background-image: url('Bts/cover.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -475,7 +475,7 @@ td {
 }
 
 .dcover {
-    background-image: url('dua/cover.jpg');
+    background-image: url('Dua/cover.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
