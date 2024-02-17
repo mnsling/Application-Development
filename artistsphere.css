@@ -310,7 +310,7 @@ body {
     padding: 15px;
     border-radius: 30px;
     border: solid 1px #ffffff;
-    background: none;
+    background-color: #353534;
     color: #ffffff;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
@@ -948,7 +948,7 @@ ol {
     padding: 10px;
     border-radius: 30px;
     border: solid 1px #ffffff;
-    background: none;
+    background-color: #353534;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
     cursor: pointer;
@@ -958,7 +958,7 @@ ol {
 
 .view-button2:hover {
     color: #ffffff;
-    background-color: #303030;
+    background-color: #000000;
 }
 
 
