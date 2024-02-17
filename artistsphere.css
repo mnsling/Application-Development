@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-flow: row wrap;
     text-align: center;
-
+    width: 100%;
 }
 
 .flex-container>* {
@@ -36,6 +36,11 @@ body {
     position: fixed;
     top: -10px;
     z-index: 1;
+}
+
+#header {
+    padding: 0;
+    margin: 0;
 }
 
 .right-button {
