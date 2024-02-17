@@ -1,0 +1,1312 @@
+@font-face {
+    font-family: 'VisbyMed';
+    src: url('VisbyRoundCF-Medium.otf') format('opentype');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #000000;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    text-align: center;
+
+}
+
+.flex-container>* {
+    padding: 5px;
+    margin: 5px;
+    flex: 1 100%;
+}
+
+.header {
+    background-color: rgb(0, 0, 0);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: -10px;
+    z-index: 1;
+}
+
+.right-button {
+    margin-right: 20px;
+}
+
+.hb,.hb1,.hb2,.hb3 {
+    border: none;
+    background: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+    margin-left: 8px;
+    margin-right: 8px;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.mtitle {
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-position: bottom;
+    filter: grayscale(70%);
+}
+
+.maintitle {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 300;
+    font-size: 150px;
+    color: #ffffff;
+    height: 600px;
+    text-align: left;
+    line-height: 120px;
+    letter-spacing: -8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.artists,.albums,.artists2 {
+    color: #ffffff;
+    font-size: 100px;
+    font-family: 'Bebas Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #ffffff;
+    margin: 0;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.artists2 {
+    margin-top: 80px;
+}
+
+.albums {
+    margin-top: 80px;
+}
+
+.left-flex::-webkit-scrollbar {
+    width: 0;
+}
+
+.left-flex::-webkit-scrollbar-thumb {
+    background: none;
+    border: none;
+    border-top: solid 4px #ffffff;
+}
+
+.left-button {
+    height: 100%;
+    flex: 1;
+    border: none;
+    color: #ffffff;
+    text-align: left;
+}
+
+.atop {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 800px;
+}
+
+#lb1 {
+    background-image: url('Artists/taylor.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb1:hover {
+    filter: grayscale(0%);
+}
+
+#lb2 {
+    background-image: url('Artists/post.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb2:hover {
+    filter: grayscale(0%);
+}
+
+#lb3 {
+    background-image: url('Artists/olivia.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb3:hover {
+    filter: grayscale(0%);
+}
+
+#lb4 {
+    background-image: url('Artists/bts.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb4:hover {
+    filter: grayscale(0%);
+}
+
+#lb5 {
+    background-image: url('Artists/dua.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb5:hover {
+    filter: grayscale(0%);
+}
+
+#lb6 {
+    background-image: url('Artists/lany.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb6:hover {
+    filter: grayscale(0%);
+}
+
+.abot {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 800px;
+}
+
+#lb7 {
+    background-image: url('Artists/billie.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb7:hover {
+    filter: grayscale(0%);
+}
+
+#lb8 {
+    background-image: url('Artists/bad.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb8:hover {
+    filter: grayscale(0%);
+}
+
+#lb9 {
+    background-image: url('Artists/weeknd.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb9:hover {
+    filter: grayscale(0%);
+}
+
+#lb10 {
+    background-image: url('Artists/travis.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb10:hover {
+    filter: grayscale(0%);
+}
+
+#lb11 {
+    background-image: url('Artists/ed.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb11:hover {
+    filter: grayscale(0%);
+}
+
+#lb12 {
+    background-image: url('Artists/ariana.jpg');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: grayscale(100%);
+}
+
+#lb12:hover {
+    filter: grayscale(0%);
+}
+
+.button-no {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 150px;
+}
+
+.button-name {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    margin-top: 180px;
+}
+
+.button-genre {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+}
+
+.view-button {
+    margin-left: 20px;
+    margin-top: 100px;
+    padding: 15px;
+    border-radius: 30px;
+    border: solid 1px #ffffff;
+    background: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+}
+
+.view-button:hover {
+    background: #000000;
+}
+
+.album {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-flex {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Albums {
+    width: 100%;
+
+}
+
+th {
+    color: #888888;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom: solid 1px #555555;
+}
+
+.a {
+    text-align: left;
+}
+
+td {
+    color: #888888;
+    font-size: 15px; 
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.show {
+    background: none;
+    border: none;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.title {
+    color: #ffffff;
+    text-align: left;
+}
+
+.show {
+    border: none;
+    background: none;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+.row1:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row2:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row3:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row4:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row5:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row6:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row7:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row8:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row9:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.row10:hover {
+    background-color: #3f3f3f;
+    color: #ffffff;
+}
+
+.tcover {
+    background-image: url('Taylor/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.pcover {
+    background-image: url('Post/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.ocover {
+    background-image: url('Olivia/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bcover {
+    background-image: url('bts/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.dcover {
+    background-image: url('dua/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.lcover {
+    background-image: url('Lany/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bicover {
+    background-image: url('Billie/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.bacover {
+    background-image: url('Bad/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.wcover {
+    background-image: url('Weeknd/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.trcover {
+    background-image: url('Travis/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.ecover {
+    background-image: url('Ed/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.arcover {
+    background-image: url('Ariana/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(6px);
+    height: 300px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.tInfo {
+    display: flex;
+    align-items: top;
+    justify-content: left;
+    margin-top: 20px;
+}
+
+.tsa1 {
+    width: 300px;
+    border: solid 1px #888888;
+    border-radius: 10px;
+    display: inline;
+}
+
+.details {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.alInfo {
+    border-left: solid 1px #888888;
+}
+
+.al1,.al2,.al3,.al4,.al5,.al6,.al7,.al8,.al9,.al10,
+.al11,.al12,.al13,.al14,.al15,.al16,.al17,.al18,.al19,.al20,
+.al21,.al22,.al23,.al24,.al25,.al26,.al27,.al28,.al29,.al30,
+.al31,.al32,.al33,.al34,.al35,.al36,.al37,.al38,.al39,.al40,
+.al41,.al42,.al43,.al44,.al45,.al46,.al47 {
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 20px;
+}
+
+.al1 {
+    background-image: linear-gradient(#811A3F, #080808);
+}
+
+.al2 {
+    background-image: linear-gradient(#C9AC94, #080808);
+}
+
+.al3 {
+    background-image: linear-gradient(#838383, #080808);
+}
+
+.al4 {
+    background-image: linear-gradient(#D3BDDD, #080808);
+}
+
+.al5 {
+    background-image: linear-gradient(#7D8FA3, #080808);
+}
+
+.al6 {
+    background-image: linear-gradient(#923C26, #080808);
+}
+
+.al7 {
+    background-image: linear-gradient(#948935, #080808);
+}
+
+.al8 {
+    background-image: linear-gradient(#437083, #080808);
+}
+
+.al9 {
+    background-image: linear-gradient(#8B82C4, #080808);
+}
+
+.al10 {
+    background-image: linear-gradient(#3A3368, #080808);
+}
+
+.al11 {
+    background-image: linear-gradient(#E5D13E, #080808);
+}
+
+.al12 {
+    background-image: linear-gradient(#151925, #080808);
+}
+
+.al13 {
+    background-image: linear-gradient(#C6B8D9, #080808);
+}
+
+.al14 {
+    background-image: linear-gradient(#FE759C, #080808);
+}
+
+.al15 {
+    background-image: linear-gradient(#cccccc, #080808);
+}
+
+.al16 {
+    background-image: linear-gradient(#A05964, #080808);
+}
+
+.al17 {
+    background-image: linear-gradient(#cccccc, #080808);
+}
+
+.al18 {
+    background-image: linear-gradient(#d666bc, #080808);
+}
+
+.al19 {
+    background-image: linear-gradient(#5A5989, #080808);
+}
+
+.al20 {
+    background-image: linear-gradient(#E5575A, #080808);
+}
+
+.al21 {
+    background-image: linear-gradient(#2B3E8A, #080808);
+}
+
+.al22 {
+    background-image: linear-gradient(#EBD580, #080808);
+}
+
+.al23 {
+    background-image: linear-gradient(#9C9389, #080808);
+}
+
+.al24 {
+    background-image: linear-gradient(#ffc88a, #080808);
+}
+
+.al25 {
+    background-image: linear-gradient(#c9c9c9, #080808);
+}
+
+.al26 {
+    background-image: linear-gradient(#83BECF, #080808);
+}
+
+.al27 {
+    background-image: linear-gradient(#2F7CA7, #080808);
+}
+
+.al28 {
+    background-image: linear-gradient(#E87988, #080808);
+}
+
+.al29 {
+    background-image: linear-gradient(#987F73, #080808);
+}
+
+.al30 {
+    background-image: linear-gradient(#353534, #080808);
+}
+
+.al31 {
+    background-image: linear-gradient(#eb194a, #080808);
+}
+
+.al32 {
+    background-image: linear-gradient(#c4471a, #080808);
+}
+
+.al33 {
+    background-image: linear-gradient(#94AA97, #080808);
+}
+
+.al34 {
+    background-image: linear-gradient(#19394A, #080808);
+}
+
+.al35 {
+    background-image: linear-gradient(#E3779B, #080808);
+}
+
+.al36 {
+    background-image: linear-gradient(#404997, #080808);
+}
+
+.al37 {
+    background-image: linear-gradient(#A1908F, #080808);
+}
+
+.al38 {
+    background-image: linear-gradient(#D08B5F, #080808);
+}
+
+.al39 {
+    background-image: linear-gradient(#26743A, #080808);
+}
+
+.al40 {
+    background-image: linear-gradient(#0578C2, #080808);
+}
+
+.al41 {
+    background-image: linear-gradient(#B51E2A, #080808);
+}
+
+.al42 {
+    background-image: linear-gradient(#E3BA1E, #080808);
+}
+
+.al43 {
+    background-image: linear-gradient(#62849C, #080808);
+}
+
+.al44 {
+    background-image: linear-gradient(#717171, #080808);
+}
+
+.al45 {
+    background-image: linear-gradient(#5B5A5A, #080808);
+}
+
+.al46 {
+    background-image: linear-gradient(#BE7F66, #080808);
+}
+
+.al47 {
+    background-image: linear-gradient(#617A6F, #080808);
+}
+
+.t1 {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.tlabel {
+    color: #e9e9e9;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    margin: 0;
+    margin-left: 15px;
+}
+
+.ttitle {
+    color: #ffffff;
+    font-size: 70px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 800;
+    margin: 0;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.tinfo {
+    color: #ffffff;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 30px;
+    margin-bottom: 15px;
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.audio-container {
+    display: flex;
+    align-items: left;
+    margin-top: 20px; /* Adjust the margin as needed */
+}
+
+ol {
+    padding: 0;
+    margin-left: 40px;
+    color: #ffffff;
+    text-align: left;
+}
+
+.rightside {
+    display: flex;
+}
+
+#artist1 {
+    background-image: url('Taylor/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist2 {
+    background-image: url('Post/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist3 {
+    background-image: url('Olivia/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist4 {
+    background-image: url('Bts/abt.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist5 {
+    background-image: url('Dua/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist6 {
+    background-image: url('Lany/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist7 {
+    background-image: url('Billie/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist8 {
+    background-image: url('Bad/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist9 {
+    background-image: url('Weeknd/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist10 {
+    background-image: url('Travis/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist11 {
+    background-image: url('Ed/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#artist12 {
+    background-image: url('Ariana/abt.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.artp {
+    font-size: 28px;
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    color: #ffffff;
+    border-radius: 20px;
+    border: solid 1px #888888;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 48px;
+    background-color: #3e4453b0;
+}
+
+.view-button2 {
+    margin: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    border: solid 1px #ffffff;
+    background: none;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+    cursor: pointer;
+    height: 60px;
+    width: 200px;
+}
+
+.view-button2:hover {
+    color: #ffffff;
+    background-color: #303030;
+}
+
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    color: #888888;
+    font-size: 12px;
+    font-family: 'Outfit', sans-serif;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 20px;
+    border-top: solid 1px #888888;
+    margin-top: 50px;
+}
+
+@media (max-width:1550px) {
+    .maintitle {
+        font-size: 130px;
+        line-height: 100px;
+    }
+}
+
+@media (max-width:1300.00px) {
+    .maintitle {
+        font-size: 110px;
+        line-height: 85px;
+    }
+}
+
+@media (max-width:1796px) {
+    .left-flex {
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+
+    .left-button {
+        display: inline-block;
+        width: 25%;
+        white-space: normal;
+    }
+
+    .button-name {
+        font-size: 36px;
+    }
+}
+
+@media (max-width:1460px) {
+    .button-name {
+        font-size: 28px;
+    }
+
+    .button-genre {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:1071px) {
+    .button-name {
+        font-size: 25px;
+    }
+
+    .button-genre {
+        font-size: 18px;
+    }
+}
+
+@media (max-width:920px) {
+    .button-name {
+        font-size: 18px;
+    }
+    .button-genre {
+        font-size: 12px;
+    }
+}
+
+@media (max-width:1107.78px) {
+    .maintitle {
+        font-size: 80px;
+        line-height: 65px;
+    }
+}
+
+@media (max-width:776.67px) {
+    .maintitle {
+        font-size: 50px;
+        line-height: 40px;
+        letter-spacing: -2px;
+    }
+}
+
+@media (max-width:552px) {
+    .maintitle {
+        font-size: 40px;
+        line-height: 35px;
+        letter-spacing: -2px;
+    }
+}
+
+@media (max-width:1600.00px) {
+    .artp {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+@media (max-width:834.44px) {
+    .artp {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .name {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1123px) {
+    .view-button {
+        font-size: 14px;
+        line-height: 30px;
+        padding: 10px;
+    }
+}
+
+@media (max-width:613.33px) {
+    .artists,.artists2,.albums {
+        font-size: 80px;
+    }
+}
+
+@media (max-width: 850px) {
+    .al1,.al2,.al3,.al4,.al5,.al6,.al7,.al8,.al9,.al10,
+    .al11,.al12,.al13,.al14,.al15,.al16,.al17,.al18,.al19,.al20,
+    .al21,.al22,.al23,.al24,.al25,.al26,.al27,.al28,.al29,.al30,
+    .al31,.al32,.al33,.al34,.al35,.al36,.al37,.al38,.al39,.al40,
+    .al41,.al42,.al43,.al44,.al45,.al46,.al47 {
+        display: block;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .al1 {
+        background-image: url('Taylor/cover1.jpg');
+    }
+
+    .al2 {
+        background-image: url('Taylor/cover2.jpg');
+    }
+
+    .al3 {
+        background-image: url('Taylor/cover3.jpg');
+    }
+
+    .al4 {
+        background-image: url('Taylor/cover4.jpg');
+    }
+
+    .al5 {
+        background-image: url('Taylor/cover5.jpg');
+    }
+
+    .al6 {
+        background-image: url('Post/cover1.jpg');
+    }
+
+    .al7 {
+        background-image: url('Post/cover2.jpg');
+    }
+
+    .al8 {
+        background-image: url('Post/cover3.jpg');
+    }
+
+    .al9 {
+        background-image: url('Olivia/cover1.jpg');
+    }
+
+    .al10 {
+        background-image: url('Olivia/cover2.jpg');
+    }
+    
+    .al11 {
+        background-image: url('Bts/cover1.jpg');
+    }
+
+    .al12 {
+        background-image: url('Bts/cover2.jpg');
+    }
+
+    .al13 {
+        background-image: url('Bts/cover3.jpg');
+    }
+
+    .al14 {
+        background-image: url('Bts/cover4.jpg');
+    }
+
+    .al15 {
+        background-image: url('Bts/cover5.jpg');
+    }
+
+    .al16 {
+        background-image: url('Dua/cover1.jpg');
+    }
+
+    .al17 {
+        background-image: url('Lany/cover1.jpg');
+    }
+
+    .al18 {
+        background-image: url('Lany/cover2.jpg');
+    }
+
+    .al19 {
+        background-image: url('Lany/cover3.jpg');
+    }
+
+    .al20 {
+        background-image: url('Lany/cover4.jpg');
+    }
+
+    .al21 {
+        background-image: url('Lany/cover5.jpg');
+    }
+
+    .al22 {
+        background-image: url('Billie/cover1.jpg');
+    }
+
+    .al23 {
+        background-image: url('Billie/cover2.jpg');
+    }
+
+    .al24 {
+        background-image: url('Billie/cover3.jpg');
+    }
+
+    .al25 {
+        background-image: url('Bad/cover1.jpg');
+    }
+
+    .al26 {
+        background-image: url('Bad/cover2.jpg');
+    }
+
+    .al27 {
+        background-image: url('Bad/cover3.jpg');
+    }
+
+    .al28 {
+        background-image: url('Bad/cover4.jpg');
+    }
+
+    .al29 {
+        background-image: url('Bad/cover5.jpg');
+    }
+
+    .al30 {
+        background-image: url('Weeknd/cover1.jpg');
+    }
+
+    .al31 {
+        background-image: url('Weeknd/cover2.jpg');
+    }
+
+    .al32 {
+        background-image: url('Weeknd/cover3.jpg');
+    }
+
+    .al33 {
+        background-image: url('Weeknd/cover4.jpg');
+    }
+
+    .al34 {
+        background-image: url('Weeknd/cover5.jpg');
+    }
+
+    .al35 {
+        background-image: url('Travis/cover1.jpg');
+    }
+
+    .al36 {
+        background-image: url('Travis/cover2.jpg');
+    }
+
+    .al37 {
+        background-image: url('Travis/cover3.jpg');
+    }
+
+    .al38 {
+        background-image: url('Ed/cover1.jpg');
+    }
+
+    .al39 {
+        background-image: url('Ed/cover2.jpg');
+    }
+
+    .al40 {
+        background-image: url('Ed/cover3.jpg');
+    }
+
+    .al41 {
+        background-image: url('Ed/cover4.jpg');
+    }
+
+    .al42 {
+        background-image: url('Ed/cover5.jpg');
+    }
+
+    .al43 {
+        background-image: url('Ariana/cover1.jpg');
+    }
+
+    .al44 {
+        background-image: url('Ariana/cover2.jpg');
+    }
+
+    .al45 {
+        background-image: url('Ariana/cover3.jpg');
+    }
+
+    .al46 {
+        background-image: url('Ariana/cover4.jpg');
+    }
+
+    .al47 {
+        background-image: url('Ariana/cover5.jpg');
+    }
+
+    .image-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    audio {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .alInfo {
+        border-radius: 20px;
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.6);
+        border: solid 1px #888888;
+    }
+}
+
+@media (max-width:790.00px) {
+    .hb,.hb1,.hb2,.hb3 {
+        font-size: 13px;
+    }
+}
