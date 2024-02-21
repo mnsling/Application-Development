@@ -796,7 +796,7 @@ td {
 .t1 {
     width: 300px;
     border-radius: 10px;
-    margin-right: 20px; /* Adjust the margin as needed */
+    margin-right: 20px; 
 }
 
 .tlabel {
@@ -835,7 +835,7 @@ td {
 .audio-container {
     display: flex;
     align-items: left;
-    margin-top: 20px; /* Adjust the margin as needed */
+    margin-top: 20px; 
 }
 
 ol {
@@ -1359,6 +1359,68 @@ ol {
 @media (max-width:790.00px) {
     .hb,.hb1,.hb2,.hb3 {
         font-size: 13px;
+    }
+}
+
+@media (max-width:900px) {
+    .tcover {
+        background-image: url('Taylor/taylor.gif');
+        filter: blur(0px);
+    }
+
+    .pcover {
+        background-image: url('Post/post.gif');
+        filter: blur(0px);
+    }
+
+    .ocover {
+        background-image: url('Olivia/olivia.gif');
+        filter: blur(0px);
+    }
+
+    .bcover {
+        background-image: url('Bts/bts.gif');
+        filter: blur(0px);
+    }
+
+    .dcover {
+        background-image: url('Dua/dua.gif');
+        filter: blur(0px);
+    }
+
+    .lcover {
+        background-image: url('Lany/lany.gif');
+        filter: blur(0px);
+    }
+
+    .bicover {
+        background-image: url('Billie/billie.gif');
+        filter: blur(0px);
+    }
+
+    .bacover {
+        background-image: url('Bad/bad.gif');
+        filter: blur(0px);
+    }
+
+    .wcover {
+        background-image: url('Weeknd/weeknd.gif');
+        filter: blur(0px);
+    }
+
+    .trcover {
+        background-image: url('Travis/travis.gif');
+        filter: blur(0px);
+    }
+
+    .ecover {
+        background-image: url('Ed/ed.gif');
+        filter: blur(0px);
+    }
+
+    .arcover {
+        background-image: url('Ariana/ariana.gif');
+        filter: blur(0px);
     }
 }
 
