@@ -64,7 +64,7 @@ body {
     background-image: url('wallpaper.gif');
     background-size: cover;
     background-position: bottom;
-    filter: grayscale(70%);
+    filter: grayscale(40%);
 }
 
 .maintitle {
