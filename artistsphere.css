@@ -1096,13 +1096,7 @@ ol {
         font-size: 15px;
         line-height: 25px;
     }
-    .name {
-        font-size: 50px;
-    }
-}
-
-@media (max-width:390px) {
-    .name {
+    .name, .ttitle {
         font-size: 50px;
     }
 }
@@ -1133,7 +1127,7 @@ ol {
         font-size: 15px;
     }
 
-    .ttitle {
+    .name, .ttitle {
         font-size: 40px;
     }
 }
