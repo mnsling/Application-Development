@@ -61,7 +61,7 @@ body {
 }
 
 .mtitle {
-    background-image: url('wallpaper.jpg');
+    background-image: url('wallpaper.gif');
     background-size: cover;
     background-position: bottom;
     filter: grayscale(70%);
